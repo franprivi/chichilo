@@ -1,0 +1,100 @@
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: green;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+.nav {
+    background-color: red;
+    padding: 0.5rem;
+}
+.nav ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li {
+    margin: 0 1rem;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Asegura que los elementos estén en columna si es necesario */
+    padding: 10px;
+    border-radius: 30px;
+    gap: 20px;
+    width: 50%; /* Ajusta el ancho de la caja */
+    margin: 50px auto 0 auto ; 
+    background-color: green; 
+}
+.menu ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.titulo2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: white;
+}
+.foto {
+    width: 30%;
+    border-radius: 50%;
+    height: auto    ;
+}
+.contenedorfotos {
+    display: flex; /* Coloca las fotos en fila */
+    justify-content: space-around; /* Agrega espacio entre las fotos */
+    align-items: center; /* Alinea las fotos verticalmente */
+    gap: 20px; /* Espacio entre las fotos */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    width: 80%; /* Ajusta el ancho del contenedor */
+}
+.menu p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.titulo3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: white;
+}
